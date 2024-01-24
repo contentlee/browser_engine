@@ -84,7 +84,7 @@ class Parser {
 
   // Parse a tag or attribute name.
   parse_tag_name(): string {
-    const regExp = /a-zA-Z0-9/g;
+    const regExp = /[a-zA-Z0-9]/;
     return this.consume_while((char) => regExp.test(char));
   }
 
