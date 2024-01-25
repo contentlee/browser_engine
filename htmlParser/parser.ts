@@ -171,6 +171,7 @@ const parse = (source: string): DomNode => {
 
 console.log(parse("<html><body>Hello, world!</body></html>"));
 
+export default Parser;
 // class Node {
 //   children = null;
 //   nodeType;
